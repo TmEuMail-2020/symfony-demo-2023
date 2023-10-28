@@ -129,6 +129,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
     </include_path>
   </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="localhost:8000" id="6a5a3996-8391-4385-a96e-57502755722a" name="localhost:8000" port="8000" />
+    </servers>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
   <component name="PhpStan">
     <PhpStan_settings>

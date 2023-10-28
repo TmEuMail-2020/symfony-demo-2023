@@ -19,7 +19,10 @@ class AlohaController extends AbstractController
     #[Route(path: '/hihi/{id}', name: "hihi", requirements: ['id' => '\d+'], methods: ['GET'])]
     public function yo(string $id): Response
     {
-        return new Response("hihi $id");
+        $url = $this->generateUrl('hihi', ['id' => 5]);
+        return $this->render('aloha.html.twig', [
+            'url' => $url,
+        ]);
     }
 }
 
